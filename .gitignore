@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Never sync secrets (defensive — skills shouldn't contain these)
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+*credential*
