@@ -1,0 +1,24 @@
+{
+  "name": "sadra-skills",
+  "owner": {
+    "name": "Sadra Almasi",
+    "email": "sadraalmasi03@gmail.com"
+  },
+  "metadata": {
+    "description": "Sadra's personal collection of Claude skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sadra-skills",
+      "source": "./",
+      "description": "All skills from SadraAlmasi/claude-skills. Every top-level folder containing a SKILL.md is loaded automatically.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sadra Almasi"
+      },
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
